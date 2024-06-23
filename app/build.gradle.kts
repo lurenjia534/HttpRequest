@@ -84,6 +84,7 @@ dependencies {
     implementation("androidx.navigation:navigation-compose:2.7.7")  // 库的作用是实现页面之间的跳转
     implementation("androidx.navigation:navigation-compose:2.7.7")
     implementation("com.squareup.retrofit2:retrofit:2.11.0")
+    implementation ("com.squareup.retrofit2:converter-gson:2.11.0")
     implementation ("androidx.compose.material3:material3:1.3.0-beta3")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
